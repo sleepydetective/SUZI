@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Halo",
+        "Hi",
+        "Selamat pagi",
+        "Hello",
+        "Hei",
+        "Oi",
+        "Weh",
+        "Hai"
+      ],
+      "responses": [
+        "Halo :)",
+        "Hi! Apakah ada yang bisa saya bantu?",
+        "Selamat datang di website kami :)",
+        "Hai! Apa yang anda ingin tanyakan kepadaku?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Bai", "Selamat tinggal"],
+      "responses": [
+        "Sampai jumpa!",
+        "Ikan hiu makan tomat, terima kasih sobat!",
+        "Bye! Sampai jumpa kembali :)"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Makasi", "Terima kasih", "TY", "makaseh", "thx", "thank u"],
+      "responses": ["Sama-sama! Apakah ada hal lain yang saya bisa bantu?"]
+    },
+    {
+      "tag": "general info",
+      "patterns": [
+        "Apa itu PPITSZ?",
+        "PPITSZ?",
+        "PPIT",
+        "Ini organisasi apa?",
+        "Ini apa ya?"
+      ],
+      "responses": [
+        "Keinginan pelajar-pelajar Indonesia di kota Shenzhen untuk berdiri mandiri sebagai sebuah organisasi bermula pada tahun 2018. Di tahun yang sama, Perhimpunan Pelajar Indonesia di Tiongkok ranting Shenzhen (PPITSZ) resmi berdiri sebagai ranting dari cabang Guangzhou. Kepengurusan pertama PPITSZ dipimpin oleh Saudara Ivan Prawira Limanauw yang juga merupakan salah satu inisiator berdirinya organisasi ini. Setelah melewati satu periode kepengurusan, PPITSZ akhirnya disahkan sebagai cabang pada tahun 2019. Saat ini, PPITSZ menaungi lebih dari 200 pelajar aktif yang tersebar di 4 lembaga pendidikan di Kota Shenzhen."
+        
+      ]
+    },
+    {
+      "tag": "visi",
+      "patterns": [
+        "apa visi ppitsz?",
+        "visi",
+        "tujuan"
+      ],
+      "responses": [
+        "PPIT Shenzhen menjadi rumah kedua yang menginspirasi, mendukung, dan memberdayakan pelajar Indonesia untuk mencapai potensi penuh mereka."
+      ]
+    },
+    {
+      "tag": "misi",
+      "patterns": [
+        "apa misi ppitsz?",
+        "misi"
+      ],
+      "responses": [
+        "GASS (Generasi Aktif, Sukses Selalu): mempertahankan semangat dan energi yang selalu bergerak maju, penuh inisiatif, dan selalu berusaha untuk mencapai yang terbaik dalam segala hal; mendorong seluruh anggota PPIT Shenzhen untuk memperoleh keberhasilan secara konsisten dan memaksimalkan potensi untuk mencapai segala tujuan dalam seluruh aspek kehidupan; membangun relasi yang kuat, internal maupun external, melalui kinerja, komunikasi, dan kepercayaan yang baik; membentuk komunitas yang inklusif dan supportif serta memfasilitasi jaringan alumni yang kuat."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
